@@ -1,0 +1,60 @@
+// BUTTONS >
+
+.button {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: @font-size;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-align: center;
+    text-wrap: none;
+    white-space: nowrap;
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+
+    &:hover,
+    &:focus,
+    &:active {
+        text-decoration: none;
+    }
+}
+
+.button--primary {
+    background-color: @theme;
+    color: #FFF;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: darken(@theme, 5%);
+        color: #FFF;
+    }
+}
+
+.button--outline {
+    background-color: transparent;
+    border-color: @theme;
+    color: @theme;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: @theme;
+        color: #FFF;
+    }
+}
+
+.button--small {
+    font-size: 0.8em;
+    padding: 8px 16px;
+}
+
+.button--block {
+    display: block;
+    text-align: center;
+    width: 100%;
+
+    & + & {
+        margin-top: 10px;
+    }
+}
