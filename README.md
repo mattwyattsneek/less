@@ -1,5 +1,5 @@
-# less
-a nice mini css framework to structure projects with ☺️
+#  👨🏼‍💻
+a lovely framework to structure projects with ☺️
 
 
 ## Laravel 
